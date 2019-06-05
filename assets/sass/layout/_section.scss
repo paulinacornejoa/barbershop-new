@@ -8,6 +8,37 @@
   background-position: center;
   height: 737px;
 }
+.text-hair {
+  color:$white;
+  font-family:$play-fair;
+  font-weight:$black-italic;
+  font-size:$xx-large;
+}
+
+
+// Segunda sección
+
+.second__section {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+.text_date {
+  font-weight: $regular;
+  font-size: $extra-light;
+
+}
+
+.second__section p{
+  font-weight: $regular;
+  font-size:$extra-light;
+}
+
+
+
+
+
+
 
 .third_section {
   background-color: $silver;
