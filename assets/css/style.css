@@ -1,10 +1,15 @@
 /*Componentes del sitio*/
 .text_date {
   font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 200;
 }
 
-.second__section p {
+.second__section {
   font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 70px;
 }
 
 .button {
@@ -34,13 +39,14 @@
 }
 
 footer {
-  height: 90px;
+  height: 150px;
   background-color: #121619;
   text-align: center;
 }
 
 .logo_footer {
-  width: 20px;
+  width: 120px;
+  padding-top: 50px;
 }
 
 .bg-hairstyle {
@@ -69,13 +75,13 @@ footer {
   font-size: 200;
 }
 
-.second__section p {
-  font-weight: 400;
-  font-size: 200;
+.naomi__section {
+  background-color: #FFF;
 }
 
-.third_section {
-  background-color: #A0A0A0;
+.naomi__section--img {
+  border-radius: 50%;
+  padding-left: 60px;
 }
 
 .pages_numbers {

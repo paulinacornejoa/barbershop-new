@@ -26,23 +26,19 @@
 .text_date {
   font-weight: $regular;
   font-size: $extra-light;
-
-}
-
-.second__section p{
-  font-weight: $regular;
-  font-size:$extra-light;
 }
 
 
+// Tercera sección
 
+.naomi__section {
+  background-color: $white;
+}
+.naomi__section--img {
 
-
-
-
-.third_section {
-  background-color: $silver;
-
+ border-radius: 50%;
+ padding-left: 60px;
+ 
 }
 
 //Cuarta sección
