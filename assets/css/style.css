@@ -1,92 +1,18 @@
-/*Componentes del sitio*/
-.text_date {
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  font-size: 200;
-}
+/* Error: Expected identifier.
+ *    ,
+ * 15 | .{
+ *    |  ^
+ *    '
+ *   assets/sass/components/_buttons.scss 15:2  @import
+ *   assets/sass/main.scss 11:9                 root stylesheet */
 
-.second__section {
-  font-family: "Roboto", sans-serif;
-  text-align: left;
-  padding-top: 50px;
-  padding-left: 70px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected identifier.\a    \2577 \a 15 \2502  .{\a    \2502   ^\a    \2575 \a   assets/sass/components/_buttons.scss 15:2  @import\a   assets/sass/main.scss 11:9                 root stylesheet";
 }
-
-.button {
-  padding: 0.7rem 2rem;
-  border-radius: 3px;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.button_share {
-  background-color: #6C6E70;
-  border: 1px solid #6C6E70;
-}
-
-.button_coment {
-  border-color: #6C6E70;
-}
-
-#nav_bar {
-  background-color: #121619;
-}
-
-.logo_img {
-  width: 30%;
-}
-
-footer {
-  height: 150px;
-  background-color: #121619;
-  text-align: center;
-}
-
-.logo_footer {
-  width: 120px;
-  padding-top: 50px;
-}
-
-.bg-hairstyle {
-  background-image: url(../img/post-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 737px;
-}
-
-.text-hair {
-  color: #FFF;
-  font-family: "Playfair Display", serif;
-  font-weight: 900i;
-  font-size: 70px;
-}
-
-.second__section {
-  text-align: left;
-  padding-top: 50px;
-  padding-left: 60px;
-}
-
-.text_date {
-  font-weight: 400;
-  font-size: 200;
-}
-
-.naomi__section {
-  background-color: #FFF;
-}
-
-.naomi__section--img {
-  border-radius: 50%;
-  padding-left: 60px;
-}
-
-.pages_numbers {
-  background-color: #A0A0A0;
-  height: 50px;
-}
-
-/*# sourceMappingURL=style.css.map */

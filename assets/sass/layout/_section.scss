@@ -10,23 +10,19 @@
 }
 .text-hair {
   color:$white;
-  font-family:$play-fair;
-  font-weight:$black-italic;
-  font-size:$xx-large;
+  padding-top: 250px;
+  text-align: center;
 }
-
 
 // Segunda sección
 
-.second__section {
+.second_section {
   text-align: left;
   padding-top: 50px;
-  padding-left: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
-.text_date {
-  font-weight: $regular;
-  font-size: $extra-light;
-}
+
 
 
 // Tercera sección
@@ -37,8 +33,13 @@
 .naomi__section--img {
 
  border-radius: 50%;
+ border-color: $nickel;
  padding-left: 60px;
- 
+ padding-top: 50px;
+
+}
+.nao_thai_name {
+  line-height: 30px;
 }
 
 //Cuarta sección
