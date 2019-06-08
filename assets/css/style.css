@@ -1,18 +1,195 @@
-/* Error: Undefined variable.
- *   ,
- * 6 |     color: $granitegray;
- *   |            ^^^^^^^^^^^^
- *   '
- *   assets/sass/components/_buttons.scss 6:12  @import
- *   assets/sass/main.scss 10:9                 root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      color: $granitegray;\a   \2502             ^^^^^^^^^^^^\a   \2575 \a   assets/sass/components/_buttons.scss 6:12  @import\a   assets/sass/main.scss 10:9                 root stylesheet";
+/*Componentes del sitio*/
+p {
+  margin-top: 0;
 }
+
+.row {
+  display: block;
+  text-align: center;
+}
+
+.text_date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 45px;
+  color: #6C6E70;
+}
+
+.text-hair {
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+}
+
+.p_date {
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  color: #6C6E70;
+  font-size: 16px;
+}
+
+.button_share, .button_coment {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.third__section--nao {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.third__section--thai1 {
+  color: #ECBCBA;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.text-naomi {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6C6E70;
+  line-height: 60px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.row {
+  display: block;
+  text-align: center;
+}
+
+.button_share {
+  background-color: #6C6E70;
+  border: 2px;
+  border-color: #6C6E70;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 10%;
+}
+
+.button_coment {
+  background-color: #6C6E70;
+  border: 2px;
+  border-color: #6C6E70;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 20%;
+}
+
+.pages__numbers {
+  display: inherit;
+  background-color: #FFF;
+}
+
+.pages__numbers a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination--prev,
+.pagination__numbers--1,
+.pagination__numbers--3,
+.pagination__numbers--next {
+  background-color: #FFF;
+}
+
+.pagination a.active {
+  background-color: #121619;
+  color: #FFF;
+  border: 1px solid #E7E7E7;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #121619;
+  color: #FFF;
+}
+
+#nav_bar {
+  background-color: #121619;
+}
+
+.logo_img {
+  width: 30%;
+}
+
+footer {
+  height: 150px;
+  background-color: #121619;
+  text-align: center;
+}
+
+.logo_footer {
+  width: 120px;
+  padding-top: 50px;
+}
+
+.bg-hairstyle {
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 737px;
+}
+
+.text-hair {
+  color: #FFF;
+  padding-top: 250px;
+  text-align: center;
+}
+
+.second_section {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.naomi__section {
+  background-color: #FFF;
+}
+
+.naomi__section--img {
+  border-radius: 50%;
+  padding-top: 30px;
+  width: 50%;
+}
+
+.nao_thai_name {
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.third__section--nao {
+  margin-bottom: 20px;
+}
+
+.text-naomi {
+  width: 100%;
+}
+
+.pages__numbers {
+  background-color: #E7E7E7;
+  height: 180px;
+}
+
+/*# sourceMappingURL=style.css.map */

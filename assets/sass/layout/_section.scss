@@ -30,22 +30,29 @@
 .naomi__section {
   background-color: $white;
 }
+
 .naomi__section--img {
-
  border-radius: 50%;
- border-color: $nickel;
- padding-left: 60px;
- padding-top: 50px;
-
+ padding-top: 30px;
+width: 50%;
 }
+
 .nao_thai_name {
   line-height: 30px;
+  margin-top: 30px;
+
+}
+
+.third__section--nao {
+  margin-bottom: 20px;
+}
+
+.text-naomi {
+  width: 100%;
 }
 
 //Cuarta sección
-
-.pages_numbers {
-background-color: $silver;
-height: 50px;
-
+.pages__numbers {
+  background-color: $platinum;
+  height: 180px;
 }
