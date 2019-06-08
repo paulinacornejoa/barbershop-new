@@ -1,10 +1,10 @@
-/* Error: Expected identifier.
- *    ,
- * 15 | .{
- *    |  ^
- *    '
- *   assets/sass/components/_buttons.scss 15:2  @import
- *   assets/sass/main.scss 11:9                 root stylesheet */
+/* Error: Undefined variable.
+ *   ,
+ * 6 |     color: $granitegray;
+ *   |            ^^^^^^^^^^^^
+ *   '
+ *   assets/sass/components/_buttons.scss 6:12  @import
+ *   assets/sass/main.scss 10:9                 root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 15 \2502  .{\a    \2502   ^\a    \2575 \a   assets/sass/components/_buttons.scss 15:2  @import\a   assets/sass/main.scss 11:9                 root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      color: $granitegray;\a   \2502             ^^^^^^^^^^^^\a   \2575 \a   assets/sass/components/_buttons.scss 6:12  @import\a   assets/sass/main.scss 10:9                 root stylesheet";
 }

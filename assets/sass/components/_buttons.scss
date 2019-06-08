@@ -1,17 +1,28 @@
 
 .button_share {
-  background-color: $nickel;
-  border:1px;
-  border-radius: 40%;
-  width: 100px;
-  height: 30px;
-}
+    background-color: $white;
+    border: 2px;
+    border-color: $nickel;
+    color: $granitegray;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50px;
+    width: 40%;
+    }
 
 .button_coment {
-  border-color: $nickel;
-  border-radius: 50%;
-}
-
-. {
-
-}
+    background-color: $white;
+    border: 2px;
+    border-color: $nickel;
+    color: $granitegray;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50px;
+    width: 40%;
+    }
