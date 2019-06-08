@@ -1,30 +1,35 @@
-
+// Buttons text section
 .button_share {
   background-color: $nickel;
   border: 2px;
   border-color: $nickel;
   color: $white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50px;
-    width: 10%;
-
-    }
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 32%;
+}
 
 .button_coment {
-    background-color: $nickel;
-    border: 2px;
-    border-color: $nickel;
-    color: $white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50px;
-    width: 20%;
-    }
+  background-color: $nickel;
+  border: 2px;
+  border-color: $nickel;
+  color: $white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 65%;
+  }
+
+.buttons {
+  justify-content: center;
+}
+
+//Button pagination
 
 .pages__numbers {
   display: inherit;
@@ -39,6 +44,13 @@
   transition: background-color .3s;
   border: 1px solid #ddd;
 }
+
+.pagination {
+  justify-content: center;
+  padding-top: 65px;
+  border-radius: 40px;
+}
+
 .pagination--prev,
 .pagination__numbers--1,
 .pagination__numbers--3,
@@ -52,4 +64,4 @@
   border: 1px solid #E7E7E7;
 }
 
-.pagination a:hover:not(.active) {background-color: #121619;color: $white;}
+.pagination a:hover:not(.active) {background-color: $eeire-black ;color: $white;}
